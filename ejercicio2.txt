@@ -1,0 +1,4 @@
+El proyecto se encuentra en la rama front-react y se deben subir los cambios a produccion en la rama master.
+Para eso me situo en el rama master: git checkout master
+Desde esta rama traigo lo que contiene la rama front-react: git merge front-react
+Luego subo los cambios al repositorio remoto: git push

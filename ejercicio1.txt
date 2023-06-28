@@ -1,0 +1,7 @@
+Estoy trabajando en el repositorio website, en el branch custom-navbar. 
+Debo pausar el trabajo y borrar el archivo que está en la rama master, llamado status.js.
+Para eso ejecuto: git stash --include-untrucked
+Luego paso a la rama master con el siguiente comando: git checkout master
+Borro el archivo y hago un commit con los siguientes comandos: git rm status.js ; git commit ; git push; 
+Luego vuelvo a la rama custom-navbar y sigo trabajando ejecutando los siguientes comandos: git checkout custom-navbar ; git stash pop 
+
